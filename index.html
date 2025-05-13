@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murugan Sounderrajan | Software + Web , Designer & Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">MG</a>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#resume">Resume</a>
+                    <a href="#contact">Contact</a>
+                    <button class="theme-toggle"><i class="fas fa-moon"></i></button>
+                </div>
+                <button class="hamburger"><i class="fas fa-bars"></i></button>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Murugan Sounderrajan</span></h1>
+                <h2>UI/UX Designer | Native-App Developer | Frontend web-developer | IT Fresher</h2>
+                <p>Passionate about creating elegant solutions to complex problems</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <!-- <div class="hero-image">
+                <img src="C:\Users\MURUGAN\Desktop\PortfolioDS\assets\Software Development.mp4" alt="Developer illustration"></img>
+            </div> -->
+        </div>
+    </header>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="uiux">UI/UX Design</button>
+                <button class="filter-btn" data-filter="software">Software</button>
+                <button class="filter-btn" data-filter="frontend">Frontend Web</button>
+            </div>
+
+            <div class="project-grid">
+                <div class="project-card" data-category="uiux">
+                    <div class="project-image">
+                        <img src="C:\Users\MURUGAN\Desktop\PortfolioDS\assets\Screenshot 2025-05-11 192723.png"
+                            alt="RestaurantApp Design">
+                        <div class="project-category">UI/UX Design</div>
+                    </div>
+                    <div class="project-details">
+                        <h3>TORTUGA -Table Reservation App UI</h3>
+                        <p>User-centered design for online table resrvation experience</p>
+                        <div class="tech-stack">
+                            <span>Figma</span>
+                            <span>Prototyping</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://embed.figma.com/proto/9Kxe8iMzeE097W1ZnXeJO9/TORTUGA?page-id=0%3A1&node-id=13-111&p=f&viewport=-299%2C2370%2C0.28&scaling=scale-down&content-scaling=fixed&embed-host=share"
+                                class="btn small"><i class="fas fa-external-link-alt"></i> User App Prototype</a>
+                            <a href="https://embed.figma.com/proto/9Kxe8iMzeE097W1ZnXeJO9/TORTUGA?page-id=126%3A2&node-id=261-2&p=f&viewport=479%2C576%2C0.17&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=164%3A5&embed-host=share"
+                                class="btn small"><i class="fas fa-external-link-alt"></i> Admin App Prototype</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="software">
+                    <div class="project-image">
+                        <img src="C:\Users\MURUGAN\Desktop\PortfolioDS\assets\client.jpg" alt="User Restaurant App">
+                        <div class="project-category">Software</div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Tortuga -Restaurant Management App</h3>
+                        <p>User Mobile application for Table Reservation and Food Ordering</p>
+                        <div class="tech-stack">
+                            <span>Flutter</span>
+                            <span>FireBase</span>
+                            <span>ChatGPT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small"><i class="fas fa-external-link-alt"></i> Download</a>
+                            <a href="#" class="btn small secondary"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="uiux">
+                    <div class="project-image">
+                        <img src="C:\Users\MURUGAN\Desktop\PortfolioDS\assets\Screenshot 2025-05-11 185731.png"
+                            alt="Mobile Chat App Design">
+                        <div class="project-category">UI/UX Design</div>
+                    </div>
+
+                    <div class="project-details">
+                        <h3>ChitChat</h3>
+                        <p>Minimal Mobile Chat App</p>
+                        <div class="tech-stack">
+                            <span>Figma</span>
+                            <span>User Testing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://embed.figma.com/design/Dq5jksBsEdGUcqwfbb1XQ2/Untitled?node-id=0-1&embed-host=share"
+                                class="btn small"><i class="fas fa-external-link-alt"></i> Prototype</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="software">
+                    <div class="project-image">
+                        <img src="C:\Users\MURUGAN\Desktop\PortfolioDS\assets\admin.jpg" alt="Admin Restaurant App">
+                        <div class="project-category">Software</div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Tortuga -Restaurant Management System</h3>
+                        <p>Admin App that manages the Reservation of Tortuga Users</p>
+                        <div class="tech-stack">
+                            <span>Flutter</span>
+                            <span>FireBase</span>
+                            <span>ChatGPT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="#" class="btn small secondary"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+            <div class="skills-container">
+                <div class="skills-content">
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <div class="skill-bar">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                                <span class="percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Python</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%"></div>
+                                <span class="percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Flutter (Dart)</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%"></div>
+                                <span class="percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Java</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 60%"></div>
+                                <span class="percentage">60%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>DataBase & Backend</h3>
+                        <div class="skill-bar">
+                            <span class="skill-name">SQL</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%"></div>
+                                <span class="percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">FireBase</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                                <span class="percentage">80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3>Design</h3>
+                        <div class="skill-bar">
+                            <span class="skill-name">User Interface/ User Experience</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                                <span class="percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Prototyping</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                                <span class="percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Figma</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                                <span class="percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Adobe XD</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                                <span class="percentage">95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="skills-illustration">
+                    <img src="https://lottie.host/embed/7c46e39b-6d34-469a-b28c-19ef11565d04/43de90rxgB.lottie" alt="Skills illustration">
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Certifications</span></h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-image">
+                        <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-9258829a-5a89-497a-b6b5-f622ecd593a5.jpg"
+                            alt="Figma Certificate">
+                    </div>
+                    <div class="certification-details">
+                        <h3>Figma UI/UX Complete Bootcamp</h3>
+                        <p class="issuer">Udemy</p>
+                        <p class="date">Issued: Feb 2025</p>
+                        <div class="certification-links">
+                            <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-9258829a-5a89-497a-b6b5-f622ecd593a5.jpg"
+                                class="btn small secondary"><i class="fas fa-download"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-image">
+                        <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-684c87b6-1415-4655-b9cd-e5aead81765b.jpg"
+                            alt="Databse Certificate">
+                    </div>
+                    <div class="certification-details">
+                        <h3>Figma UI/UX Complete Bootcamp</h3>
+                        <p class="issuer">Udemy</p>
+                        <p class="date">Issued: Feb 2025</p>
+                        <div class="certification-links">
+                            <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-684c87b6-1415-4655-b9cd-e5aead81765b.jpg"
+                                class="btn small secondary"><i class="fas fa-download"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Resume</span></h2>
+            <div class="resume-container">
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Bachelor of Science in Information Technology</h4>
+                            <p class="institution">University of Mumbai | 2022-2025</p>
+                            <p class="timeline-date">2022 - 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="download-resume">
+                <a href="#" class="btn primary" download>
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>murugansounderrajan@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 9324798478</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Mumbai, IND</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/murugansr"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/murugan-sounderrajan-0190a0275/"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/muru_gan_05"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/muru_gan.05/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Murugan Sounderrajan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
