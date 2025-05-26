@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Murugan Sounderrajan | Software + Web , Designer & Developer</title>
+    <title>Murugan Resume</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap"
         rel="stylesheet">
@@ -41,106 +41,82 @@
                     <a href="#contact" class="btn secondary">Contact Me</a>
                 </div>
             </div>
-            <!-- <div class="hero-image">
-                <img src="C:\Users\MURUGAN\Desktop\PortfolioDS\assets\Software Development.mp4" alt="Developer illustration"></img>
-            </div> -->
+            <div class="hero-image">
+                <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDVpc2k3MTF2OTl2cDN0Z2VteWN0djVtenlndnpxYjUzeThua21lMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/UmWpVKOvNEv6CHVtl7/giphy.gif"
+                    alt="Developer illustration"></img>
+            </div>
         </div>
     </header>
 
     <section id="projects" class="projects">
         <div class="container">
             <h2 class="section-title">My <span class="highlight">Projects</span></h2>
-
-            <div class="project-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="uiux">UI/UX Design</button>
-                <button class="filter-btn" data-filter="software">Software</button>
-                <button class="filter-btn" data-filter="frontend">Frontend Web</button>
-            </div>
-
             <div class="project-grid">
-                <div class="project-card" data-category="uiux">
+                <!-- TORTUGA User App -->
+                <div class="project-card">
                     <div class="project-image">
-                        <img src="assets/TortugaUI.png" alt="RestaurantApp Design">
-                        <div class="project-category">UI/UX Design</div>
+                        <img src="assets/client.jpg" alt="User Restaurant App">
                     </div>
                     <div class="project-details">
-                        <h3>TORTUGA -Table Reservation App UI</h3>
-                        <p>User-centered design for online table resrvation experience</p>
+                        <h3>TORTUGA -Restaurant Management User App</h3>
+                        <p>A Flutter-based mobile app for users to booking tables and ordering food. Includes Firebase
+                            Auth and
+                            live data sync. Including Figma UI Designs.</p>
                         <div class="tech-stack">
                             <span>Figma</span>
-                            <span>Prototyping</span>
+                            <span>Flutter</span>
+                            <span>Firebase</span>
                         </div>
                         <div class="project-links">
                             <a href="https://embed.figma.com/proto/9Kxe8iMzeE097W1ZnXeJO9/TORTUGA?page-id=0%3A1&node-id=13-111&p=f&viewport=-299%2C2370%2C0.28&scaling=scale-down&content-scaling=fixed&embed-host=share"
-                                class="btn small"><i class="fas fa-external-link-alt"></i> User App Prototype</a>
-                            <a href="https://embed.figma.com/proto/9Kxe8iMzeE097W1ZnXeJO9/TORTUGA?page-id=126%3A2&node-id=261-2&p=f&viewport=479%2C576%2C0.17&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=164%3A5&embed-host=share"
-                                class="btn small"><i class="fas fa-external-link-alt"></i> Admin App Prototype</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card" data-category="software">
-                    <div class="project-image">
-                        <img src="assets/client.jpg" alt="User Restaurant App">
-                        <div class="project-category">Software</div>
-                    </div>
-                    <div class="project-details">
-                        <h3>Tortuga -Restaurant Management App</h3>
-                        <p>User Mobile application for Table Reservation and Food Ordering</p>
-                        <div class="tech-stack">
-                            <span>Flutter</span>
-                            <span>FireBase</span>
-                            <span>ChatGPT</span>
-                        </div>
-                        <div class="project-links">
-                            <!-- <a href="#" class="btn small"><i class="fas fa-external-link-alt"></i> Download</a> -->
+                                class="btn small secondary"><i class="fas fa-external-link-alt"></i> Prototype</a>
                             <a href="https://github.com/murugansr/Tortuga.git" class="btn small secondary"><i
                                     class="fab fa-github"></i> Code</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="project-card" data-category="uiux">
+                <!-- TORTUGA Admin App -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/admin.jpg" alt="Admin Restaurant App">
+                    </div>
+                    <div class="project-details">
+                        <h3>TORTUGA -Restaurant Management Admin App</h3>
+                        <p>A Flutter-based mobile admin interface to manage food menu, reservations, and staff
+                            authentication for the TORTUGA
+                            platform. Including Figma UI Designs.</p>
+                        <div class="tech-stack">
+                            <span>Figma</span>
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://embed.figma.com/proto/9Kxe8iMzeE097W1ZnXeJO9/TORTUGA?page-id=126%3A2&node-id=261-2&p=f&viewport=479%2C576%2C0.17&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=164%3A5&embed-host=share"
+                                class="btn small secondary"><i class="fas fa-external-link-alt"></i> Prototype</a>
+                            <a href="https://github.com/murugansr/Tortuga.git" class="btn small secondary"><i
+                                    class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ChitChat UI -->
+                <div class="project-card">
                     <div class="project-image">
                         <img src="assets/ChitChat.png" alt="Mobile Chat App Design">
-                        <div class="project-category">UI/UX Design</div>
                     </div>
-
                     <div class="project-details">
-                        <h3>ChitChat</h3>
-                        <p>Clean mobile UI concept with chat view and profile management.</p>
+                        <h3>ChitChat -Mobile Chat UI</h3>
+                        <p>Minimal mobile chat interface designed with clean views for profile and chat using Figma.</p>
                         <div class="tech-stack">
                             <span>Figma</span>
                         </div>
                         <div class="project-links">
                             <a href="https://embed.figma.com/design/Dq5jksBsEdGUcqwfbb1XQ2/Untitled?node-id=0-1&embed-host=share"
-                                class="btn small"><i class="fas fa-external-link-alt"></i> Prototype</a>
+                                class="btn small secondary"><i class="fas fa-external-link-alt"></i> Prototype</a>
                         </div>
                     </div>
                 </div>
-
-                <div class="project-card" data-category="software">
-                    <div class="project-image">
-                        <img src="assets/admin.jpg" alt="Admin Restaurant App">
-                        <div class="project-category">Software</div>
-                    </div>
-                    <div class="project-details">
-                        <h3>Tortuga -Restaurant Management System</h3>
-                        <p>Admin App that manages the Reservation of Tortuga Users</p>
-                        <div class="tech-stack">
-                            <span>Flutter</span>
-                            <span>FireBase</span>
-                            <span>ChatGPT</span>
-                        </div>
-                        <div class="project-links">
-                            <!-- <a href="#" class="btn small"><i class="fas fa-external-link-alt"></i> Demo</a> -->
-                            <a href="https://github.com/murugansr/Tortuga.git" class="btn small secondary"><i
-                                    class="fab fa-github"></i> Code</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
@@ -232,9 +208,10 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="skills-illustration">
-                    <img src="https://lottie.host/embed/7c46e39b-6d34-469a-b28c-19ef11565d04/43de90rxgB.lottie" alt="Skills illustration">
-                </div> -->
+                <div class="skills-illustration">
+                    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGM2NTNqMmNzcW03MDRyeW03b2R2aGo3aWphMzdmbHRjbzk1cnBjZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/GxcptIyuOwo1CjnIl1/giphy.gif"
+                        alt="Skills illustration">
+                </div>
             </div>
         </div>
     </section>
@@ -245,8 +222,7 @@
             <div class="certifications-grid">
                 <div class="certification-card">
                     <div class="certification-image">
-                        <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-9258829a-5a89-497a-b6b5-f622ecd593a5.jpg"
-                            alt="Figma Certificate">
+                        <img src="https://img-c.udemycdn.com/course/240x135/6119595_498e.jpg" alt="Figma Certificate">
                     </div>
                     <div class="certification-details">
                         <h3>Figma UI/UX Complete Bootcamp</h3>
@@ -260,7 +236,7 @@
                 </div>
                 <div class="certification-card">
                     <div class="certification-image">
-                        <img src="https://udemy-certificate.s3.amazonaws.com/image/UC-684c87b6-1415-4655-b9cd-e5aead81765b.jpg"
+                        <img src="https://img-c.udemycdn.com/course/480x270/5895992_f4fe_7.jpg"
                             alt="Databse Certificate">
                     </div>
                     <div class="certification-details">
